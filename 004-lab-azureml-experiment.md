@@ -98,19 +98,19 @@ Later on we will make some changes on this new design, but let’s publish it as
 
 3. To remove these redundant fields, switch to the “Experiments” page open the experiment “Lab04” and switch to the “Predictive experiment” as in the step 3 of the section “Publishing a trained model as Web Service” in this lab.  
 
-4. Drag & drop two “Project Columns” module from “Data Transformation” -> “Manipulation” -> “Project Columns” node path. One “Project Columns” module under “Linoise.csv” module, the other under “Score Model” module as shown below.  
+4. Drag & drop two “Project Columns” module from “Data Transformation” -> “Manipulation” -> “Select Columns in DataSet” node path. One “Select Columns in DataSet” module under “Linoise.csv” module, the other under “Score Model” module as shown below.  
 ![](./imgs/4.2.i020.png)  
 
-5. Reconnect the input/output ports between “linoise.csv” to “Score Model” and “Score Model” to “Web service output” modules by putting the “Project Columns” modules in between as shown below.  
+5. Reconnect the input/output ports between “linoise.csv” to “Score Model” and “Score Model” to “Web service output” modules by putting the “Select Columns in DataSet” modules in between as shown below.  
 ![](./imgs/4.2.i021.png)  
 
-6. Click on the first “Project Columns” module and then click the “Launch column selector” button on the properties window.  
+6. Click on the first “Select Columns in DataSet” module and then click the “Launch column selector” button on the properties window.  
 ![](./imgs/4.2.i022.png)  
 
 7. Select just “x” columns in the pop-up window.  
 ![](./imgs/4.2.i023.png)  
 
-8. Now do the same for the second “Project Columns” module. Select just “Scored Labels” column as output.  
+8. Now do the same for the second “Select Columns in DataSet” module. Select just “Scored Labels” column as output.  
 ![](./imgs/4.2.i024.png)  
 
 9. Press “RUN” to run the experiment once again with its recent updates.  
@@ -196,7 +196,7 @@ In the previous example, we used integer data types as input value. What about f
 2. After few seconds you will get an error message in the notification area telling that the input value provided is not in the correct data format.  
 ![](./imgs/4.2.i044.png)  
 
-3. To overcome this error, drop a “Metadata Editor” module from the “Data Transformation” -> “Manipulation” node path. Connect this “Metadata Editor” module between “Project Columns” and “Score Model” modules.  
+3. To overcome this error, drop a “Metadata Editor” module from the “Data Transformation” -> “Manipulation” node path. Connect this “Metadata Editor” module between “Select Columns in DataSet” and “Score Model” modules.  
 ![](./imgs/4.2.i045.png)  
 
 4. Switch to the properties window of the “Metadata Editor” module. Click “Launch Column Selector” button, select “x” column and click on the check mark button on the bottom right corner.  
