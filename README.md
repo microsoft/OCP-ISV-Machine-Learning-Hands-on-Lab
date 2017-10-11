@@ -22,11 +22,11 @@ The purpose of the lab is to guide you through the creation of a very simple Mac
 This lab contains 7 chapters, the first six will cover the whole Machine Learning experiment creation and are the mandatory part, and the last one is a bonus track so you can understand different ways to interact with the results of the experiment after its completion.
 
 
-[Begin Hands on Lab](./01-Sign-up/sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
+[Begin Hands on Lab](./01-Sign-up:sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
 
 ### **Detailed contents of the HOL**
     
-1. [Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up/sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
+1. [Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up:sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
 
 2. [Chapter 2 - Create project and import data](./02-Create%20project%20and%20import%20data.md)
 
