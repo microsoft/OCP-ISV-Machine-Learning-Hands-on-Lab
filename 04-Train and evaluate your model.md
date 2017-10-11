@@ -1,3 +1,5 @@
+[<- Chapter 3 - Data prep & cleanse](./03-Data%20prep%20&%20cleanse.md)
+
 # Chapter 4 - Train and evaluate your model
 
 Now that your data is cleaned an prepared for training, is time to train a model that could help us to predict future values for the Player Efficiency Rating for every NBA player. The first point to understand regarding the training is how it works, which is basically by comparing predicted values with known values, so you can evaluate the accuracy of the model and keep polishing it until you get the best results possible.
@@ -52,3 +54,5 @@ Let&#39;s check these values by right clicking the output point of the &quot;Eva
 ![](./imgs/ML45.png)
 
 As you can see, both algorithms are performing really bad, with 30% and 10% accuracy, so let&#39;s see how to improve our model with some fine tunning.
+
+[-> Chapter 5 - Refine the model and re-evaluate](05-Refine%20the%20model%20and%20re-evaluate.md)

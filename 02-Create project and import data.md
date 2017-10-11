@@ -1,3 +1,5 @@
+[<- Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up:sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
+
 # Chapter 2 - Create project and import data
 
 The first thing that we&#39;ll need for our experiment is the data that we will use for both train/test our model and to generate predictions with our trained model. Using Azure ML Studio tool we can import our data in multiple ways (directly from SQL databases, DocumentDB, Azure Storage...and other storage options, using the &quot;Import Data&quot; module on the tool), but let&#39;s keep thing simple and upload three csv files to our Azure ML account:
@@ -75,3 +77,5 @@ Finally, let&#39;s also add our experiment to the project we created before, so 
 
 Now you are ready to go! You have your datasets, the training experiment with the first step on the dataflow and the project containing all of your assets, which should look like this:
 ![](./imgs/ML26.png)
+
+[-> Chapter 3 - Data prep & cleanse](./03-Data%20prep%20&%20cleanse.md)

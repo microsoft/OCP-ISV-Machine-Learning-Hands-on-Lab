@@ -1,3 +1,5 @@
+[<- Chapter 2 - Create project and import data](./02-Create%20project%20and%20import%20data.md)
+
 # Chapter 3 - Data prep &amp; cleanse
 
 As we can see by exploring our data, there are several things that are distorting our dataset (special characters on the names, header rows all over the file…), missing values, fields treated as text when they are numbers…
@@ -82,3 +84,5 @@ To normalize the values of our PER feature for training purposes, look for the &
 After running the experiment again, you can visualize that our PER feature is a normal distribution by definition. Right-click on the output point of the &quot;Clip Values&quot; module, then &quot;Visualize&quot; and select the PER column. On the right pane of the visualization pop-up you will see a graphic representation of the selected column as a vertical bar chart, displaying a normal distribution (slightly skewed to the left, as there are more players below the league average than above it…a.k.a. the Superstar Zone):
 
 ![](./imgs/ML38.png)
+
+[-> Chapter 4 - Train and evaluate your model](./04-Train%20and%20evaluate%20your%20model.md)

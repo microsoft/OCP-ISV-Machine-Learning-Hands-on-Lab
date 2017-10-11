@@ -1,3 +1,5 @@
+[<- Chapter 5 - Refine the model and re-evaluate](05-Refine%20the%20model%20and%20re-evaluate.md)
+
 # Chapter 6 - Predicting the future
 
 Now that you have improved your model, it&#39;s time to put it to good use by predicting the Player Efficiency Rating for the NBA players on the next season. At this point, all that you have created is the training experiment, the one to prepare your data and train a model just with historic data.
@@ -28,3 +30,5 @@ If you run your predictive experiment now, you&#39;ll have a dataset containing 
 Congratulations! If you take a look at the resulting dataset, you&#39;ll be reading the future, and taking a look at the predicted Player Efficiency Rating value for every active NBA player on the 2016/2017 season. Note that there is also a new column named &quot;Drafted&quot;, which will be useful for the optional visualization and consuming data chapters of this Instructor Led Lab.
 
 ![](./imgs/ML54.png)
+
+[-> BONUS TRACK - Visualize data with Power BI and also interact with it from a conversational bot](./07-BONUS%20TRACK.md)

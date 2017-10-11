@@ -1,3 +1,5 @@
+[<- Chapter 4 - Train and evaluate your model](./04-Train%20and%20evaluate%20your%20model.md)
+
 # Chapter 5 - Refine the model and re-evaluate
 
 As you can see, the results aren&#39;t very promising…yet! We&#39;ll tackle some issues on our dataset cleaning by making some adjustments that will boost the performance of our model.
@@ -29,3 +31,5 @@ Last but not least, most of the algorithm modules let the user tune some of thei
 In this algorithm, there are different parameters that can be edited by you, so let&#39;s reduce the Number of hidden nodes to 32 and also the Learning rate to 0.001. These settings depend on the dataset used and, again, you&#39;ll only get to the right values by trying different adjustments and analyzing the impact on your results. In this case, these adjustments to the Neural Network Regression algorithm has improved the performance, reaching a value of 0.60 on the Coefficient of Determination, and making this algorithm the best one for our model.
 
 ![](./imgs/ML49.png)
+
+[-> Chapter 6 - Predicting the future](./06-Predicting%20the%20future.md)

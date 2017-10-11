@@ -1,3 +1,5 @@
+[<- Chapter 6 - Predicting the future](./06-Predicting%20the%20future.md)
+
 # [BONUS TRACK] Visualize data with Power BI and also interact with it from a conversational bot
 
 If you are planning to complete the optional chapters of this ILL, please take a look at this one and take a couple of last actions required to complete any of them. In this chapter, you&#39;ll export your data to a SQL database so you can consume from both a PowerBI report and a conversational bot.
@@ -27,3 +29,5 @@ On this repo ([http://aka.ms/predict-nba-stats](http://aka.ms/predict-nba-stats)
 ![](./imgs/ML60.png)
 
 This is just an example of how you can easily interact with the results of your Machine Learning experiments and enrich the data with some external sources, as we just had cold facts (numbers and info about the player), but lacked of context (the news about an specific player could help you understand his PER rating increase/decrease, or whether if you should pick him or not because of some injuries or team changes)…it&#39;s just a matter of having a clear goal in mind and find the right data for your solution.
+
+[-> Closing remarks & references](./README.md)
