@@ -26,7 +26,7 @@ This lab contains 7 chapters, the first six will cover the whole Machine Learnin
 
 ### **Detailed contents of the HOL**
     
-1. [Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up:sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
+1. [Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up.md)
 
 2. [Chapter 2 - Create project and import data](./02-Create%20project%20and%20import%20data.md)
 

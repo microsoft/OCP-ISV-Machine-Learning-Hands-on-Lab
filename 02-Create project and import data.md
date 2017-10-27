@@ -1,4 +1,4 @@
-[<- Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up:sign-in%20to%20Azure%20and%20AzureML%20Studio.md)
+[<- Chapter 1 – Getting things ready: Sign-up/sign-in to Azure and AzureML Studio](./01-Sign-up.md)
 
 # Chapter 2 - Create project and import data
 
